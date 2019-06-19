@@ -9,13 +9,37 @@ output: word_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Introduction
+A user requirement for a pamservice tool to be used with 
+
+* exising ps12 instruments
+* new ps12 instruments
+
+The requirements cover the command line and the graphical user interface (GUI).
+
+## differences with the pamstation types
+
+* new ps12 has one control board less (no wash board)
+* new ps12 has an integrated barcode reader
+* new ps12 has one dispense needle
+
 ## command line
+A command line interface to the pamstation12
 
 ## service tasks (use cases)
+The field engineer performs the following service task
 
-### check for disposable leaks
+* check for leaks
+* setting the wagon position
+* focussing the camera
+* calibration of sensors
+
+### check for leaks
+
 ### setting the wagon position
+
 ### focussing the camera
+
 ### calibration of sensors
 
 ### stages command
@@ -91,11 +115,13 @@ change xy positon
 
 `overpressure ( pump ) 0.2`
 
+### aspirate commands
+
 `aspirate` ( value next to it )
 
 `needle up / down`
 
-## disposable commands
+### disposable commands
 
 `temp position 1 / 2 / 3`
 
@@ -105,7 +131,7 @@ change xy positon
 
 `temp bottom 1 2 3`
 
-## dispense commands
+### dispense commands
 
 `Dispense 20ul`
 
@@ -113,20 +139,41 @@ default pos 2
 
 
 
-## GUI
-### main window
-### parameters window
-### disposable window
-### pumping window
-### position window
-### camera window
-### dispencse window
-### input/outputs window
+## Graphical User Interface
+The requirements for a the GUI is outlined below and each tab is dealt with in each section.
 
-* iccb
-* sycb
+### main tab
+used to decide which board to connect
 
-### error window
+### parameters tab
+used to see the flashed values of the parameters
+
+### disposable tab
+used to have livefeed of the disposable parameters
+
+### pumping tab
+used to have livefeed of the pumping parameters
+
+### position tab
+used to have livefeed of the 
+
+### camera tab
+not used
+used to control the camera
+
+### dispense tab
+used to have a livefeed of the dispense
+
+### input/outputs tab
+
+used to get and set
+
+* iccb (incubate board)
+* sycb (system board)
+* wsb (wash board)
+
+### error tab
+not used
 
 
 
