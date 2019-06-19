@@ -26,7 +26,7 @@ The requirements cover the command line and the graphical user interface (GUI).
 ## command line
 A command line interface to the pamstation12
 
-## service tasks (use cases)
+### service tasks (use cases)
 The field engineer performs the following service task
 
 * check for leaks
@@ -34,15 +34,15 @@ The field engineer performs the following service task
 * focussing the camera
 * calibration of sensors
 
-### check for leaks
+#### check for leaks
 
-### setting the wagon position
+#### setting the wagon position
 
-### focussing the camera
+#### focussing the camera
 
-### calibration of sensors
+#### calibration of sensors
 
-### stages command
+### stage commands
 
 `home x y`
 
