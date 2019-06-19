@@ -1,0 +1,132 @@
+---
+title: "command_line_interface"
+author: "Pamgene Support"
+date: "6/19/2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## command line
+
+## service tasks (use cases)
+
+### check for disposable leaks
+### setting the wagon position
+### focussing the camera
+### calibration of sensors
+
+### stages command
+
+`home x y`
+
+`load x y`
+
+`x +20`
+
+`x -20`
+
+`home`
+
+`x home`
+
+`y home`
+
+`enable all boards`
+
+`read xy parameters`
+
+`home`
+
+`load`
+
+`read`
+
+`aspirate`
+
+`dispense`
+
+`frontpanel`
+
+`incubate`
+
+`get and set xyparameters`
+
+`get all xyparameters`
+
+### camera commands
+
+`go read`
+
+`get image`
+
+look at image
+
+change xy positon
+
+`flash( set )`
+
+...repeat
+
+### valves commands
+
+`open all valves`
+
+`close all valves`
+
+`close valve 1 2 3 4` 
+
+`read all values`
+
+`pump up`
+
+`pump down`
+
+`pump valve 1 2 3 4` ( all other valves should be closed ) 
+
+
+`underpressure ( pump )  -0.2`
+
+`overpressure ( pump ) 0.2`
+
+`aspirate` ( value next to it )
+
+`needle up / down`
+
+## disposable commands
+
+`temp position 1 / 2 / 3`
+
+`temp overall`
+
+`temp cover 1 2 3`
+
+`temp bottom 1 2 3`
+
+## dispense commands
+
+`Dispense 20ul`
+
+default pos 2
+
+
+
+## GUI
+### main window
+### parameters window
+### disposable window
+### pumping window
+### position window
+### camera window
+### dispencse window
+### input/outputs window
+
+* iccb
+* sycb
+
+### error window
+
+
+
