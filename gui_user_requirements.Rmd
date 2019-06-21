@@ -1,0 +1,115 @@
+---
+title: "graphical_user_interface"
+author: "Pamgene Support"
+date: "6/19/2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+A user requirement for a pamservice tool to be used with 
+
+* exising ps12 instruments
+* new ps12 instruments
+
+The requirements cover the graphical user interface (GUI) for servicing the ps12.
+
+## Graphical User Interface
+The requirements for a the GUI is outlined below and each tab is dealt with in each section.
+
+## main tab
+used to decide which board to connect
+
+![](images/01_main.png)
+
+
+## parameters tab
+used to see the flashed values of the parameters
+
+![](images/02-1_parameters_logicalpositions.png)
+
+![](images/02-2_parameters_sensorcalibration.png)
+
+![](images/02-3_parameters_controllablesettings.png)
+
+## disposable tab
+used to have livefeed of the disposable parameters
+
+![](images/03_disposable.png)
+
+## position tab
+used to have livefeed of the position parameters
+
+![](images/04_position.png)
+
+## pumping tab
+used to have livefeed of the pumping parameters
+
+![](images/05_pumping.png)
+
+## camera tab
+not used
+used to control the camera
+
+![](images/06_camera.png)
+
+## dispense tab
+used to have setting and getting
+
+![](images/07_dispense.png)
+
+## input/outputs tab
+
+used to get and set
+
+* iccb (incubate board)
+* sycb (system board)
+* wsb (wash board)
+
+## iccb (incubate board)
+
+The following four tabs in one incube board tab.
+
+![](images/10_iccb_aout.png)
+
+![](images/13_iccb_din.png)
+
+![](images/16_iccb_dout.png)
+
+Select all values button
+
+![](images/19_iccb_ain.png)
+
+## sycb (system board)
+
+The following four tabs in one incube board tab.
+
+![](images/08_sycb_ain.png)
+
+![](images/11_sycb_aout.png)
+
+
+![](images/14_sycb_din.png)
+
+
+![](images/17_sycb_din.png)
+
+
+## wsb (wash board)
+The following four tabs in one wash board tab.
+
+![](images/15_wsb_din.png)
+
+![](images/09_wsb_ain.png)
+
+![](images/12_wsb_aout.png)
+
+![](images/18_wsb_dout.png)
+
+
+
+## error tab
+![](images/20_error.png)

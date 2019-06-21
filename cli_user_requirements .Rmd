@@ -15,7 +15,7 @@ A user requirement for a pamservice tool to be used with
 * exising ps12 instruments
 * new ps12 instruments
 
-The requirements cover the command line and the graphical user interface (GUI).
+The requirements cover the command line.
 
 ## differences with the pamstation types
 
@@ -29,20 +29,32 @@ A command line interface to the pamstation12
 ### service tasks (use cases)
 The field engineer performs the following service task
 
-* check for leaks
-* setting the wagon position
-* focussing the camera
-* calibration of sensors
+*  check valve leaks
+*  check chip leaks
+*  check dispensing system
+*  check aspiration system
+*  check temperature system
+*  check optics
+*  focussing the camera
+*  replace sensor
 
-#### check for leaks
+#### check valve leaks
 
-#### setting the wagon position
+#### check chip leaks
+
+#### check dispensing system
+
+#### check aspiration system
+
+#### check temperature system
+
+#### check optics
 
 #### focussing the camera
 
-#### calibration of sensors
+#### replace sensor
 
-### stage commands
+## stage commands
 
 `home x y`
 
@@ -80,7 +92,7 @@ The field engineer performs the following service task
 
 `get all xyparameters`
 
-### camera commands
+## camera commands
 
 `go read`
 
@@ -94,7 +106,7 @@ change xy positon
 
 ...repeat
 
-### valves commands
+## valves commands
 
 `open all valves`
 
@@ -115,13 +127,13 @@ change xy positon
 
 `overpressure ( pump ) 0.2`
 
-### aspirate commands
+## aspirate commands
 
 `aspirate` ( value next to it )
 
 `needle up / down`
 
-### disposable commands
+## disposable commands
 
 `temp position 1 / 2 / 3`
 
@@ -131,7 +143,7 @@ change xy positon
 
 `temp bottom 1 2 3`
 
-### dispense commands
+## dispense commands
 
 `Dispense 20ul`
 
@@ -139,41 +151,6 @@ default pos 2
 
 
 
-## Graphical User Interface
-The requirements for a the GUI is outlined below and each tab is dealt with in each section.
-
-### main tab
-used to decide which board to connect
-
-### parameters tab
-used to see the flashed values of the parameters
-
-### disposable tab
-used to have livefeed of the disposable parameters
-
-### pumping tab
-used to have livefeed of the pumping parameters
-
-### position tab
-used to have livefeed of the 
-
-### camera tab
-not used
-used to control the camera
-
-### dispense tab
-used to have a livefeed of the dispense
-
-### input/outputs tab
-
-used to get and set
-
-* iccb (incubate board)
-* sycb (system board)
-* wsb (wash board)
-
-### error tab
-not used
 
 
 
