@@ -2,7 +2,7 @@
 title: "graphical_user_interface"
 author: "Pamgene Support"
 date: "6/19/2019"
-output: word_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -21,13 +21,14 @@ The requirements cover the graphical user interface (GUI) for servicing the ps12
 The requirements for a the GUI is outlined below and each tab is dealt with in each section.
 
 ## main tab
-used to decide which board to connect
+Used to decide which board to connect to.
+This tab is removed in the new pamservice tool.
 
 ![](images/01_main.png)
 
 
 ## parameters tab
-used to see the flashed values of the parameters
+used to get and set the values of the parameters
 
 ![](images/02-1_parameters_logicalpositions.png)
 
@@ -36,34 +37,34 @@ used to see the flashed values of the parameters
 ![](images/02-3_parameters_controllablesettings.png)
 
 ## disposable tab
-used to have livefeed of the disposable parameters
+used to set and get the disposable parameters
 
 ![](images/03_disposable.png)
 
 ## position tab
-used to have livefeed of the position parameters
+used to set and get of the position parameters
 
 ![](images/04_position.png)
 
 ## pumping tab
-used to have livefeed of the pumping parameters
+used to set and get of the pumping parameters
 
 ![](images/05_pumping.png)
 
 ## camera tab
-not used
+
 used to control the camera
 
 ![](images/06_camera.png)
 
 ## dispense tab
-used to have setting and getting
+Used to have setting and getting of dispense.
 
 ![](images/07_dispense.png)
 
 ## input/outputs tab
 
-used to get and set
+Used to get and set the values across the three control boards.
 
 * iccb (incubate board)
 * sycb (system board)
@@ -71,7 +72,7 @@ used to get and set
 
 ## iccb (incubate board)
 
-The following four tabs in one incube board tab.
+The following four tabs are moved into one incube board tab.
 
 ![](images/10_iccb_aout.png)
 
@@ -91,15 +92,14 @@ The following four tabs in one incube board tab.
 
 ![](images/11_sycb_aout.png)
 
-
 ![](images/14_sycb_din.png)
-
 
 ![](images/17_sycb_din.png)
 
 
 ## wsb (wash board)
-The following four tabs in one wash board tab.
+
+The following four tabs are moved into one wash board tab.
 
 ![](images/15_wsb_din.png)
 
@@ -108,8 +108,6 @@ The following four tabs in one wash board tab.
 ![](images/12_wsb_aout.png)
 
 ![](images/18_wsb_dout.png)
-
-
 
 ## error tab
 ![](images/20_error.png)

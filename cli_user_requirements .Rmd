@@ -2,7 +2,7 @@
 title: "command_line_interface"
 author: "Pamgene Support"
 date: "6/19/2019"
-output: word_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -26,33 +26,7 @@ The requirements cover the command line.
 ## command line
 A command line interface to the pamstation12
 
-### service tasks (use cases)
-The field engineer performs the following service task
 
-*  check valve leaks
-*  check chip leaks
-*  check dispensing system
-*  check aspiration system
-*  check temperature system
-*  check optics
-*  focussing the camera
-*  replace sensor
-
-#### check valve leaks
-
-#### check chip leaks
-
-#### check dispensing system
-
-#### check aspiration system
-
-#### check temperature system
-
-#### check optics
-
-#### focussing the camera
-
-#### replace sensor
 
 ## stage commands
 
@@ -149,7 +123,33 @@ change xy positon
 
 default pos 2
 
+### service tasks (use cases)
+The field engineer performs the following service task
 
+*  check valve leaks
+*  check chip leaks
+*  check dispensing system
+*  check aspiration system
+*  check temperature system
+*  check optics
+*  focussing the camera
+*  replace sensor
+
+#### check valve leaks
+
+#### check chip leaks
+
+#### check dispensing system
+
+#### check aspiration system
+
+#### check temperature system
+
+#### check optics
+
+#### focussing the camera
+
+#### replace sensor
 
 
 
